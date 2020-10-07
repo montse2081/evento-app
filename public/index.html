@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="./images/logoDiana.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
+
+
+
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Banquetes Diana</title>
+    <style>
+      .container{
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    
+   
+
+    <section class="hero is-medium has-carousel" style="position: initial;">
+      <div class="hero-carousel">
+        <div class='has-background is-active'>
+          <img class="is-background" src="./images/56997506_2413208338710371_6439717785726615552_n.jpg" alt="" />
+        </div>
+        <div class='has-background'>
+          <img class="is-background" src="./images/43466814_2134282299936311_3288394895038873600_n.jpg" alt="" />
+        </div>
+        <div class='has-background'>
+          <img class="is-background" src="./images/47688336_2229234197107787_4994715509736865792_n.jpg" alt="" />
+        </div>
+        <div class='has-background'>
+          <img class="is-background" src="./images/23754910_1720434371321108_3508491499424052164_n.png" alt="" />
+        </div>
+      </div>
+      <div class="hero-head">
+        <nav class="navbar is-transparent">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="./images/logoDiana.png" alt="Logo" >
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item has-text-white is-active">
+                  Inicio
+                </a>
+                <a class="navbar-item has-text-white">
+                  Servicios
+                </a>
+                <a class="navbar-item has-text-white">
+                  Promociones
+                </a>
+                <a class="navbar-item has-text-white">
+                  Ideas para tu evento
+                </a>
+                <a class="navbar-item has-text-white">
+                  Contacto
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="hero-body">
+        <div class="container has-text-centered">
+         
+          <div class="box" style="background-color: #ffffffb8;">
+            <article class="media">
+              <div class="media-left">
+                <figure class="image is-64x64" style="width: 204px;">
+                  <img src="./images/th.jpg" alt="Image">
+                </figure>
+              </div>
+              <div class="media-content">
+                <div class="content">
+                  <p>
+                    <strong>Eventos Diana <small>Somos una empresa Familiar</small>
+                    <br>
+                    Nos especializamos dia a dia en brindarle un hermoso recuerdo en cada una de sus experiencias con nosotros,
+                    buscamos darle calidad, comodidad y elegancia a usted y a sus invitados, le brindamos diferentes servicios 
+                    en nuestras instalaciones o fuera de ellas como usted lo prefiera.
+                  </strong>
+                  </p>
+                </div>
+                <nav class="level is-mobile">
+                  <div class="level-left">
+                   
+                    <a class="level-item" aria-label="like">
+                      <span class="icon is-small">
+                        <i class="fas fa-heart" aria-hidden="true"></i>
+                      </span>
+                    </a>
+                  </div>
+                </nav>
+              </div>
+            </article>
+          </div>
+
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+		<script>
+		  bulmaCarousel.attach('.hero-carousel', {
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    pagination: false,
+    effect: 'fade',
+    loop: true
+  });
+		</script>
+  </body>
+</html>
